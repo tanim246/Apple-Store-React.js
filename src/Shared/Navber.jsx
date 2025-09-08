@@ -1,11 +1,11 @@
-import { useState } from "react";
+
 import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
 import { MdOutlineSearch } from "react-icons/md";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 
 const Navber = () => {
-  const [showMobileSearch, setShowMobileSearch] = useState(false);
+  
 
   return (
     <div className="bg-white  ">
@@ -30,7 +30,7 @@ const Navber = () => {
           {/* Mobile search button */}
           <button
             className="sm:hidden bg-[#d62243] rounded-full w-8 h-8 flex items-center justify-center cursor-pointer"
-            onClick={() => setShowMobileSearch(!showMobileSearch)}
+            // onClick={() => setShowMobileSearch(!showMobileSearch)}
           >
             <MdOutlineSearch className="text-white w-5 h-5" />
           </button>
@@ -52,15 +52,15 @@ const Navber = () => {
       </div>
 
       {/* Mobile search input */}
-      {showMobileSearch && (
+      
         <div className="px-4 sm:hidden mt-2">
-          <input
+          <input hidden
             type="text"
             className="border border-gray-300 px-4 pr-12 py-2 rounded-full w-full focus:outline-[#d62243] focus:outline-1"
             placeholder="Search..."
           />
         </div>
-      )}
+    
     </div>
   );
 };
