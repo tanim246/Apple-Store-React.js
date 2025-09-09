@@ -1,13 +1,12 @@
 
-import React from 'react'
-import Navber from './Shared/Navber'
-import Nav from './Shared/Nav'
+import Hero from './Components/Home/Hero'
+import MainNavber from './Shared/MainNavber'
 
 const App = () => {
   return (
     <div className=''>
-      <Navber />
-      <Nav />
+    <MainNavber />
+    <Hero />
     </div>
   )
 }
