@@ -9,9 +9,9 @@ const Navber = () => {
 
   return (
     <div className="bg-white  ">
-      <div className="flex  mt-4  sm:flex-row justify-between items-start sm:items-center max-w-6xl mx-auto py-2 px-4 sm:px-0 border-b">
+      <div className="flex  mt-4  sm:flex-row justify-between items-start sm:items-center max-w-6xl mx-auto py-2 px-4 sm:px-0">
         {/* Logo */}
-        <h1 className="text-3xl font-bold text-[#d52345]">E N T R Y.</h1>
+        <h1 className="text-3xl font-bold text-[#d52345]">Apple Store</h1>
 
         {/* Desktop Search */}
         <div className="relative w-full sm:w-[600px] hidden sm:block mt-2 sm:mt-0">
