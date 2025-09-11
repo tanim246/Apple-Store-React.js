@@ -3,7 +3,7 @@ import Nav from './Nav.jsx'
 import Navber from '../Shared/Navber.jsx'
 const MainNavber = () => {
   return (
-    <div>
+    <div className=''>
         <Navber />
         <Nav />
     </div>

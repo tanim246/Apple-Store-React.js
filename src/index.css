@@ -12,7 +12,6 @@
 .slide1{
   background-image: url(../public/Assets/BackgroundImage/slide1bg.jpg);
   background-position:center;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }

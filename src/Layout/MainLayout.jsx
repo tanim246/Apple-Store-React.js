@@ -4,7 +4,7 @@ import MainNavber from "../Shared/MainNavber";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="">
       <MainNavber />
       <Outlet />
     </div>

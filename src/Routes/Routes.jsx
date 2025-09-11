@@ -1,5 +1,4 @@
-import { createBrowserRouter } from "react-router";
-import App from "../App";
+import { createBrowserRouter, Navigate } from "react-router";
 import MainLayout from "../Layout/MainLayout";
 import Hero from "../Components/Home/Hero";
 import Shop from "../Shop/Shop";
@@ -13,15 +12,12 @@ export const Routes = createBrowserRouter([
         children:[
             {
                 index:true,
-                element:<App />,
+                element:<Navigate to="/home" />,
             },
-            // {
-            //     path:"/",
-            //     element:<Hero />
-            // },
             {
                 path:"/home",
                 element:<Hero />
+                
             },
             {
                 path:"/shop",
