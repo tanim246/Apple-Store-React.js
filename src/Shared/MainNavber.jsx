@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Nav from './Nav.jsx'
 import Navber from '../Shared/Navber.jsx'
 const MainNavber = () => {
@@ -6,8 +6,6 @@ const MainNavber = () => {
     <div>
         <Navber />
         <Nav />
-
-
     </div>
   )
 }

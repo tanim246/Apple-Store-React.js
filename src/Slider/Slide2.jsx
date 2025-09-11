@@ -1,24 +1,29 @@
 import slide2 from "../../public/Assets/image/slide02.png";
-
 const Slide2 = () => {
   return (
-    <div>
-      <div className="flex flex-col sm:flex-row rounded-md items-center justify-between pr-4 py-6 max-w-6xl mx-auto bg-gray-300">
-        {/* Left Side Text Section */}
-        <div className="pt-6 flex flex-col gap-2 items-center text-black">
-         
-          <h1 className="text-5xl font-bold">Mac Air Book</h1>
-           <p className="text-xl p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br hidden sm:block /> Voluptate delectus non molestiae.</p>
+    <div className="bg-gradient-to-r from-black via-gray-900 to-black">
+      <div className="flex flex-col sm:flex-row rounded-2xl items-center justify-between px-8 py-12 max-w-6xl mx-auto text-white">
+        <div className="flex flex-col gap-4 max-w-md text-center sm:text-left">
+          <h1 className="text-5xl font-extrabold">
+            MacBook Air M2
+          </h1>
+          <p className="text-lg text-gray-300">
+            Experience the power of Apple silicon.
+            <br className="hidden sm:block" />
+            Ultra-thin, ultra-light, and unbelievably fast.
+          </p>
           <div>
-            <button className="cursor-pointer bg-black py-2 px-8 mt-3 rounded-full text-white hover:bg-[#d62243] hover:text-white">
+            <button className="cursor-pointer bg-[#d62243] py-3 px-10 mt-4 rounded-full font-semibold shadow-lg hover:bg-white hover:text-black transition-all duration-300">
               Buy Now
             </button>
           </div>
         </div>
-
-        {/* Right Side Image Section */}
-        <div className="w-[450px]">
-          <img src={slide2} alt="iPhone 17 Pro Max" />
+        <div className="w-[450px] mt-8 sm:mt-0">
+          <img
+            src={slide2}
+            alt="MacBook Air M2"
+            //className="drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+          />
         </div>
       </div>
     </div>

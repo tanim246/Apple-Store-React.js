@@ -1,8 +1,28 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Nav = () => {
+  const navItem = [
+    {
+      name: "Home",
+      path: "/home",
+    },
+    {
+      name: "About",
+      path: "/about",
+    },
+    {
+      name: "Products",
+      path: "/products",
+    },
+    {
+      name: "Contact",
+      path: "/contact",
+    },
+  ];
+
   return (
-    <div className="bg-[#ffd7e3]">
+    <div className="bg-[#ffd7e3] ">
       <nav className="max-w-6xl mx-auto ">
         <div className="navbar text-white">
           {/* left side */}
@@ -34,10 +54,11 @@ const Nav = () => {
                 tabIndex={0}
                 className="menu menu-sm space-y-4 dropdown-content bg-base-100 text-black rounded-box z-10 mt-3 w-52 p-2 shadow"
               >
-                <li>Home</li>
-                <li>About</li>
-                <li>Products</li>
-                <li>Contact</li>
+                {navItem?.map((item, index) => (
+                  <li key={index}>
+                    <Link to={item.path}>{item.name}</Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
@@ -50,33 +71,17 @@ const Nav = () => {
               >
                 Categories
               </div>
-              {/* <ul
-                tabIndex={0}
-                className="dropdown-content menu p-2 shadow bg-white rounded-box w-40 text-black"
-              >
-                <li>
-                  <a>Volvo</a>
-                </li>
-                <li>
-                  <a>Saab</a>
-                </li>
-                <li>
-                  <a>Opel</a>
-                </li>
-                <li>
-                  <a>Audi</a>
-                </li>
-              </ul> */}
             </div>
           </div>
 
           {/* center menu */}
           <div className="navbar-center hidden lg:flex">
             <ul className="menu text-[16px] menu-horizontal text-black space-x-8 px-1">
-              <li>Home</li>
-              <li>About</li>
-              <li>Products</li>
-              <li>Contact</li>
+              {navItem?.map((item, index) => (
+                <li key={index}>
+                  <Link to={item.path}>{item.name}</Link>
+                </li>
+              ))}
             </ul>
           </div>
 

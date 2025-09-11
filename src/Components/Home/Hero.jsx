@@ -5,9 +5,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import Slide2 from "../../Slider/Slide2";
 import Slide1 from "../../Slider/Slide1";
-import Slide2 from "../../Slider/slide2";
 import Slide3 from "../../Slider/Slide3";
+
 
 export default function Hero() {
   return (
@@ -28,17 +29,7 @@ export default function Hero() {
       >
         <SwiperSlide>
           <div>
-            <Slide1 />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
             <Slide2 />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <Slide3 />
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -48,14 +39,10 @@ export default function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <Slide2 />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
             <Slide3 />
           </div>
         </SwiperSlide>
+       
       </Swiper>
     </>
   );

@@ -2,9 +2,9 @@ import slide1 from "../../public/Assets/image/slide1.png";
 
 const Slide1 = () => {
   return (
-    <div>
+    <div className="slide1">
       {/* slide 1 */}
-      <div className="flex  flex-col bg-[#34283B] pt-3 rounded-md  items-center gap-4 max-w-6xl mx-auto">
+      <div className="flex  flex-col pt-3 rounded-md  items-center gap-4 max-w-6xl mx-auto">
         <div className="pt-6 flex flex-col gap-2 items-center text-white ">
           <p className="text-xl ">DON'T MISS OUT ON HUGE SAVINGS</p>
           <h1 className="text-5xl font-bold">Iphone 17 pro max </h1>

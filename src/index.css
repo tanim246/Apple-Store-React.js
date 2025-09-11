@@ -3,6 +3,20 @@
  @plugin "daisyui";
 
 
+.slide3{
+  background-image: url(../public/Assets/BackgroundImage/slide3Bg.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide1{
+  background-image: url(../public/Assets/BackgroundImage/slide1bg.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ 
 
  /* swipeer */
 
@@ -28,3 +42,5 @@
   height: 100%;
   object-fit: cover;
 }
+
+
