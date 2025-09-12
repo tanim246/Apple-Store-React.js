@@ -22,7 +22,7 @@ const Nav = () => {
   ];
 
   return (
-    <div className="bg-[#ffd7e3] ">
+    <div className="bg-[#c525425e] ">
       <nav className="max-w-6xl mx-auto ">
         <div className="navbar text-white">
           {/* left side */}
@@ -76,7 +76,7 @@ const Nav = () => {
 
           {/* center menu */}
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu text-[16px] menu-horizontal text-black space-x-8 px-1">
+            <ul className="menu text-[16px] menu-horizontal text-black space-x-6 px-1">
               {navItem?.map((item, index) => (
                 <li key={index}>
                   <Link to={item.path}>{item.name}</Link>

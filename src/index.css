@@ -1,26 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
 
- @import "tailwindcss";
- @plugin "daisyui";
-
-
-.slide3{
+.slide3 {
   background-image: url(../public/Assets/BackgroundImage/slide3Bg.jpg);
-  background-position:center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.slide1{
+.slide1 {
   background-image: url(../public/Assets/BackgroundImage/slide1bg.jpg);
-  background-position:center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
- 
+/* swipeer */
 
- /* swipeer */
-
- .swiper {
+.swiper {
   width: 100%;
   height: 100%;
 }
@@ -42,5 +41,3 @@
   height: 100%;
   object-fit: cover;
 }
-
-

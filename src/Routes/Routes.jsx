@@ -2,6 +2,7 @@ import { createBrowserRouter, Navigate } from "react-router";
 import MainLayout from "../Layout/MainLayout";
 import Hero from "../Components/Home/Hero";
 import Shop from "../Shop/Shop";
+import Contact from "../Components/Contact";
 
 
 
@@ -27,6 +28,11 @@ export const Routes = createBrowserRouter([
                 path:"/about",
                 element: <div>About</div>
             },
+            {
+                path:"/contact",
+                element:<Contact />
+
+            }
         ]
     },
     

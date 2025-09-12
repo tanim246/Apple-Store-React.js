@@ -1,12 +1,13 @@
 import React from "react";
 import Filter from "./Filter";
 import Products from "./Products";
+import ShopBnner from "./ShopBnner";
 
 const Shop = () => {
   return (
     <div className="max-w-6xl mx-auto">
-      {/* <div className="h-[200px] bg-sky-400"></div> */}
-      <div className="max-w-6xl flex flex-col sm:flex-row mx-auto gap-4 mt-6">
+      <div className=" "><ShopBnner /></div>
+      <div className="max-w-6xl flex flex-col sm:flex-row mx-auto gap-4 mt-3">
         <div className="bg-amber-200 w-4/12">
           {" "}
           <Filter />

@@ -3,7 +3,7 @@ import CardImg from "../../public/Assets/image/cardImage.png";
 
 const Products = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
+    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 p-1">
       {/* card */}
       <div className="bg-white pt-8 px-2 border text-black rounded-md shadow-sm">
         <img src={CardImg} alt="card img" className="w-[200px] mx-auto" />
