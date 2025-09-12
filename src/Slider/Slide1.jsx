@@ -10,7 +10,7 @@ const Slide1 = () => {
           <h1 className="text-5xl font-bold">Iphone 17 pro max </h1>
           <p className="text-xl ">20% off when buying and paying online</p>
           <div>
-            <button className="cursor-pointer bg-white py-2 rounded-full text-black px-8 mt-3 hover:bg-[#d62243] hover:text-white">
+            <button className="cursor-pointer bg-white py-2 rounded-full text-black px-8 mt-3 hover:bg-orange-500 hover:text-white">
               Shop Now
             </button>
           </div>

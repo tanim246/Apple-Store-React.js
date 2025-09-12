@@ -6,7 +6,7 @@ const Filter = () => {
     <div>
       <div className=" rounded-2xl space-y-4 p-6  bg-white ">
         <div className="flex items-center gap-2">
-          <p className="bg-[#d52345] p-3 rounded-md text-white">
+          <p className="bg-orange-500 p-3 rounded-md text-white">
             <FaStar />
           </p>
           <p className="font-semibold">Catagories</p>

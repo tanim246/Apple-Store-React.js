@@ -14,7 +14,7 @@ const Slide3 = () => {
             Voluptate delectus non molestiae.
           </p>
           <div>
-            <button className="cursor-pointer border border-black py-2 px-8 mt-3 rounded-full hover:bg-[#d62243] hover:text-white transition-all duration-300">
+            <button className="cursor-pointer  py-2 px-8 mt-3 rounded-full bg-orange-500 hover:text-white transition-all duration-300">
               More Info
             </button>
           </div>

@@ -13,7 +13,7 @@ const Slide2 = () => {
             Ultra-thin, ultra-light, and unbelievably fast.
           </p>
           <div>
-            <button className="cursor-pointer bg-[#d62243] py-3 px-10 mt-4 rounded-full font-semibold shadow-lg hover:bg-white hover:text-black transition-all duration-300">
+            <button className="cursor-pointer bg-orange-500 py-3 px-10 mt-4 rounded-full font-semibold shadow-lg hover:bg-white hover:text-black transition-all duration-300">
               Buy Now
             </button>
           </div>

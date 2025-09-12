@@ -22,7 +22,7 @@ const Nav = () => {
   ];
 
   return (
-    <div className="bg-[#c525425e] ">
+    <div className=" ">
       <nav className="max-w-6xl mx-auto ">
         <div className="navbar text-white">
           {/* left side */}
@@ -55,7 +55,7 @@ const Nav = () => {
                 className="menu menu-sm  space-y-4 dropdown-content bg-base-100 text-black rounded-box z-10 mt-3 w-52 p-2 shadow"
               >
                 {navItem?.map((item, index) => (
-                  <li key={index}>
+                  <li key={index} className="">
                     <Link to={item.path}>{item.name}</Link>
                   </li>
                 ))}
@@ -67,7 +67,7 @@ const Nav = () => {
               <div
                 // tabIndex={0}
                 // role="button"
-                className="bg-white px-4 py-2 rounded-full text-black text-[16px] font-medium cursor-pointer"
+                className=" px-4 py-2 rounded-md bg-orange-500 text-white text-[16px] font-medium cursor-pointer"
               >
                 Categories
               </div>
@@ -78,7 +78,7 @@ const Nav = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu text-[16px] menu-horizontal text-black space-x-6 px-1">
               {navItem?.map((item, index) => (
-                <li key={index}>
+                <li key={index} className="hover:text-orange-500">
                   <Link to={item.path}>{item.name}</Link>
                 </li>
               ))}
@@ -87,7 +87,7 @@ const Nav = () => {
 
           <div className="navbar-end">
             <div>
-              <label className="toggle bg-white text-base-content">
+              <label className="toggle  text-base-content">
                 <input
                   type="checkbox"
                   value="synthwave"

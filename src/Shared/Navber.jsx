@@ -11,16 +11,16 @@ const Navber = () => {
     <div className="bg-white  ">
       <div className="flex  mt-4 max-w-6xl mx-auto  sm:flex-row justify-between items-start sm:items-center  py-2 px-4 sm:px-0">
         {/* Logo */}
-        <h1 className="text-3xl font-bold text-[#d52345]">Apple Store</h1>
+        <h1 className="text-3xl font-bold text-orange-500">Apple Store</h1>
 
         {/* Desktop Search */}
         <div className="relative w-full sm:w-[600px] hidden sm:block mt-2 sm:mt-0">
           <input
             type="text"
-            className="border border-gray-300 px-4 pr-12 py-2 rounded-full w-full focus:outline-[#d62243] focus:outline-1"
+            className="border border-gray-300 px-4 pr-12 py-2 rounded-full w-full focus:outline-orange-500 focus:outline-1"
             placeholder="Search..."
           />
-          <button className="absolute right-1 top-1/2 -translate-y-1/2 bg-[#d62243] rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
+          <button className="absolute right-1 top-1/2 -translate-y-1/2 bg-orange-500 rounded-full w-8 h-8 flex items-center justify-center cursor-pointer">
             <MdOutlineSearch className="text-white w-5 h-5" />
           </button>
         </div>
@@ -45,9 +45,9 @@ const Navber = () => {
           </div>
 
           {/* Action icons */}
-          <FaRegUser className="text-xl cursor-pointer hover:text-[#d62243]" />
-          <FaRegHeart className="text-xl cursor-pointer hover:text-[#d62243]" />
-          <LuShoppingCart className="text-xl cursor-pointer hover:text-[#d62243]" />
+          <FaRegUser className="text-xl cursor-pointer hover:text-orange-500" />
+          <FaRegHeart className="text-xl cursor-pointer hover:text-orange-500" />
+          <LuShoppingCart className="text-xl cursor-pointer hover:text-orange-500" />
         </div>
       </div>
 
