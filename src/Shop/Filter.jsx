@@ -11,20 +11,22 @@ const Filter = () => {
           </p>
           <p className="font-semibold">Catagories</p>
         </div>
-        <div className="flex flex-col gap-3">
-          <div className="flex items-center gap-2">
-            <input type="radio" />
-            <span>All Price Products</span>
+        <form>
+          <div className="flex flex-col gap-3">
+            <div className="flex items-center gap-2">
+              <input type="radio" name="radio-3"  />
+              <span>All Price Products</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input type="radio" />
+              <span>Low to High</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <input type="radio" name="radio-3" />
+              <span> High to Low</span>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <input type="radio" />
-            <span>Low to High</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <input type="radio" />
-            <span> High to Low</span>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   );
