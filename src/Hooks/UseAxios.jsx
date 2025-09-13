@@ -19,7 +19,7 @@ const UseAxios = (url) => {
       }
     };
     fatchData(url);
-  },[url,data]);
+  },[url]);
   return {data,loading,error };
 };
 

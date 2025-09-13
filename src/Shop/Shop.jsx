@@ -2,6 +2,7 @@ import React from "react";
 import Filter from "./Filter";
 import Products from "./Products";
 import ShopBnner from "./ShopBnner";
+import ProductJson from "./ProductJson";
 
 const Shop = () => {
   return (
@@ -15,7 +16,8 @@ const Shop = () => {
         {/* cards design */}
         <div className=" w-full">
           {" "}
-          <Products />
+          {/* <Products /> */}
+          <ProductJson />
         </div>
       </div>
     </div>
