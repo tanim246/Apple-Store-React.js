@@ -10,10 +10,10 @@ const Shop = () => {
     // console.log(value);
   }
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto p-4 sm:p-0">
       <div className=" "><ShopBnner /></div>
       <div className="max-w-6xl flex flex-col sm:flex-row mx-auto gap-4 mt-3">
-        <div className="bg-amber-200 w-4/12">
+        <div className=" w-full sm:w-4/12">
           {" "}
           <Filter handleGetFilterValue= {handleGetFilterValue}/>
         </div>

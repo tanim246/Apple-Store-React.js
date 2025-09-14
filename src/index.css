@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+
 .slide3 {
   background-image: url(../public/Assets/BackgroundImage/slide3Bg.jpg);
   background-position: center;
@@ -12,6 +14,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* logo */
+.mobify{
+  font-family: cursive;
 }
 
 /* swipeer */

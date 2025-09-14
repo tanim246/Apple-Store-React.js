@@ -1,8 +1,8 @@
 import { FaShoppingCart } from "react-icons/fa";
 import { IoHomeOutline } from "react-icons/io5";
 import { LiaShoppingBagSolid } from "react-icons/lia";
+import { MdHome } from "react-icons/md";
 import { Link } from "react-router";
-
 
 const ShopBnner = () => {
   return (
@@ -19,11 +19,18 @@ const ShopBnner = () => {
           <span className="font-semibold text-orange-600">ornaments</span>
         </p>
         <div className="flex gap-1 justify-between">
-          <Link to="/home" className="flex items-center gap-2 hover:bg-orange-100 border border-orange-600  rounded-md py-2 px-4">
-            <IoHomeOutline /> Home
+          <Link
+            to="/home"
+            className="flex items-center gap-2 hover:bg-orange-100 border border-orange-600  rounded-md py-2 px-4"
+          >
+            <MdHome />
+            Home
           </Link>
 
-          <Link to="/shop" className="flex items-center  gap-2 text-white bg-orange-500 rounded-md py-2 px-4 font-semibold">
+          <Link
+            to="/shop"
+            className="flex items-center  gap-2 text-white bg-orange-500 rounded-md py-2 px-4 font-semibold"
+          >
             <FaShoppingCart /> Shop
           </Link>
         </div>
