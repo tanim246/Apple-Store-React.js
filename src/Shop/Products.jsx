@@ -3,7 +3,7 @@ import CardImg from "../../public/Assets/image/cardImage.png";
 import ProductJson from "./ProductJson";
 
 const Products = ({ product }) => {
-  console.log(product);
+  // console.log(product);
   return (
     <div>
       {/* card */}
@@ -19,9 +19,9 @@ const Products = ({ product }) => {
           </p>
           <p className="font-semibold text-xl">{product?.title}</p>
           <div className="text-[16px]">
-            <span className="line-through">$1140</span>
+            <span className="line-through">$00.00</span>
             <span className="ml-6 text-orange-600 font-semibold">
-              {product.price}
+              ${product.price}
             </span>
           </div>
           <button className="flex-grow bg-orange-500 cursor-pointer hover:bg-orange-600 w-full p-2 text-white rounded-sm">
