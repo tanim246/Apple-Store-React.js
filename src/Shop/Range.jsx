@@ -27,12 +27,18 @@ const Range = () => {
               <span className="text-xs">$5k</span>
             </div>
             <ul className="flex flex-wrap gap-2">
-                <li className=" border border-gray-300  rounded-md px-6 py-1">$100</li>
-                <li className=" border border-gray-300  rounded-md px-6 py-1">$100</li>
-                <li className=" border border-gray-300  rounded-md px-6 py-1">$100</li>
-                <li className=" border border-gray-300  rounded-md px-6 py-1">$100</li>
-               
-                
+              <li className=" border border-gray-300  rounded-md px-6 py-1">
+                $100
+              </li>
+              <li className=" border border-gray-300  rounded-md px-6 py-1">
+                $100
+              </li>
+              <li className=" border border-gray-300  rounded-md px-6 py-1">
+                $100
+              </li>
+              <li className=" border border-gray-300  rounded-md px-6 py-1">
+                $100
+              </li>
             </ul>
           </div>
         </form>

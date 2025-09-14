@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Products from "./Products";
 import UseAxios from "../Hooks/UseAxios";
+import Loader from "../Components/Loaders/Loading";
 
 const ProductJson = ({ filterValue }) => {
   const [products, setProducts] = useState([]);
-  const { data, loading, error } = UseAxios("https://dummyjson.com/products/search?q=phone");
+  const { data, loading, error } = UseAxios(
+    "https://dummyjson.com/products/search?q=phone"
+  );
 
   useEffect(() => {
     if (!data?.products) return;
@@ -21,7 +24,11 @@ const ProductJson = ({ filterValue }) => {
   }, [data, filterValue]);
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return (
+      <div className="flex justify-center items-center  h-80">
+        <Loader  />
+      </div>
+    );
   }
 
   if (error) {

@@ -9,7 +9,7 @@ const Products = ({ product }) => {
       {/* card */}
       <div className="bg-white relative shadow-sm pt-8 px-2 r  text-black pb-4 ">
         <span className=" absolute right-3 top-4 animate-bounce   w-14 px-5 py-1 flex items-center justify-center text-white text-xs font-medium rounded-full bg-orange-500">
-         -{product?.discountPercentage}%
+          -{product?.discountPercentage}%
         </span>
 
         <img
@@ -25,14 +25,18 @@ const Products = ({ product }) => {
             <FaStar />
             <FaStar />
           </p>
-          <p className="font-semibold text-xl">{product?.title}</p>
+          <div className="flex flex-col h-20">
+            <p className="font-semibold text-xl">
+            {product?.title}
+          </p>
           <div className="text-[16px]">
             <span className="line-through">$00.00</span>
             <span className="ml-6 text-orange-600 font-semibold">
               ${product.price}
             </span>
           </div>
-          <button className="flex-grow bg-orange-500 cursor-pointer hover:bg-orange-600 w-full p-2 text-white rounded-sm">
+          </div>
+          <button className=" bg-orange-500 cursor-pointer hover:bg-orange-600 w-full p-2 text-white rounded-sm">
             Add to cart
           </button>
         </div>
