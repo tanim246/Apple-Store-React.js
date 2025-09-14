@@ -97,7 +97,7 @@ const Nav = () => {
                 </div>
               </ul>
             </div>
-            w-19
+
             {/* categories dropdown */}
             <div className="dropdown  dropdown-hover ">
               {/* <div
