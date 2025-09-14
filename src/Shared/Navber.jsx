@@ -45,8 +45,8 @@ const Navber = () => {
           <div className="hidden sm:flex gap-2 items-center text-black text-[12px]">
             <TfiHeadphoneAlt className="w-8 h-8 p-1" />
             <div className="flex flex-col">
-              <span>entry@gmail.com</span>
-              <span>(5447 45 421 251)</span>
+              <span>mobify@gmail.com</span>
+              <span>(445 22 232 444)</span>
             </div>
           </div>
 

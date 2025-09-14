@@ -7,8 +7,16 @@ const Products = ({ product }) => {
   return (
     <div>
       {/* card */}
-      <div className="bg-white shadow-sm pt-8 px-2  text-black pb-4 ">
-        <img src={product?.thumbnail} alt="card img" className="w-[200px] mx-auto" />
+      <div className="bg-white relative shadow-sm pt-8 px-2 r  text-black pb-4 ">
+        <span className=" absolute right-3 top-4 animate-bounce   w-14 px-5 py-1 flex items-center justify-center text-white text-xs font-medium rounded-full bg-orange-500">
+         -{product?.discountPercentage}%
+        </span>
+
+        <img
+          src={product?.thumbnail}
+          alt="card img"
+          className="w-[200px] mx-auto"
+        />
 
         <div className="space-y-2 m-3 mt-4">
           <p className="flex text-yellow-400">

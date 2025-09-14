@@ -16,6 +16,9 @@ const Shop = () => {
         <div className=" w-full sm:w-4/12">
           {" "}
           <Filter handleGetFilterValue= {handleGetFilterValue}/>
+          <div>
+            
+          </div>
         </div>
         {/* cards design */}
         <div className=" w-full">

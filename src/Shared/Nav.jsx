@@ -38,7 +38,7 @@ const Nav = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 ml-3 text-black"
+                  className="h-7 w-6 ml-3 sm:ml-0 text-black"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -61,7 +61,10 @@ const Nav = () => {
                   <div className="flex items-center gap-2">
                     {" "}
                     <img src={logo} alt="logo" className="w-[35px]" />
-                    <Link to="/home" className=" text-orange-500 text-xl font-semibold mobify">
+                    <Link
+                      to="/home"
+                      className=" text-orange-500 text-xl font-semibold mobify"
+                    >
                       Mobify
                     </Link>
                   </div>
