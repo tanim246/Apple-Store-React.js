@@ -1,3 +1,4 @@
+import { BiStats } from "react-icons/bi";
 import { FaShoppingCart } from "react-icons/fa";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdHome } from "react-icons/md";
@@ -39,7 +40,49 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div>
+        <section className=" ">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            
+            <p className="text-lg mb-8">
+              Welcome to MobileHub, your ultimate destination for the latest
+              smartphones and mobile accessories. We provide top-quality mobile
+              products that combine innovation, style, and performance.
+            </p>
+
+            {/* Features / Mission */}
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-2xl font-semibold text-orange-500 mb-2">
+                  Quality Products
+                </h3>
+                <p className="">
+                  We source only the best mobile phones and accessories to
+                  ensure superior quality for our customers.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-2xl font-semibold text-orange-500 mb-2">
+                  Affordable Prices
+                </h3>
+                <p className="">
+                  Get the latest smartphones and gadgets at prices that suit
+                  your budget without compromising on quality.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md">
+                <h3 className="text-2xl font-semibold text-orange-500 mb-2">
+                  Fast Delivery
+                </h3>
+                <p className="">
+                  Enjoy quick and reliable delivery services across the country
+                  for all your orders.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };

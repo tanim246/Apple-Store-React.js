@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { FaStar } from "react-icons/fa";
+import { FaSort } from "react-icons/fa";
 
 const Filter = ({ handleGetFilterValue }) => {
   const { register, watch } = useForm();
@@ -14,9 +14,10 @@ const Filter = ({ handleGetFilterValue }) => {
       <div className=" space-y-4 p-6  bg-white shadow ">
         <div className="flex items-center gap-2">
           <p className="bg-orange-500 p-3 rounded-md text-white">
-            <FaStar />
+           <FaSort />
+
           </p>
-          <p className="font-semibold text-[16px]">Sort By Products</p>
+          <p className="font-semibold text-[16px]">Sort By</p>
         </div>
         <form>
           <div className="flex flex-col gap-3">

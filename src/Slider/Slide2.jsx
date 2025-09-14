@@ -22,6 +22,7 @@ const Slide2 = () => {
           <img
             src={slide2}
             alt="MacBook Air M2"
+            // width="100px"
             //className="drop-shadow-2xl hover:scale-105 transition-transform duration-500"
           />
         </div>

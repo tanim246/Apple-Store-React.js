@@ -8,7 +8,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Slide2 from "../../Slider/Slide2";
 import Slide1 from "../../Slider/Slide1";
 import Slide3 from "../../Slider/Slide3";
-
+import Products from "../../Shop/Products";
+import Shop from "../../Shop/Shop";
+import ProductJson from "../../Shop/ProductJson";
 
 export default function Hero() {
   return (
@@ -28,7 +30,7 @@ export default function Hero() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div>
+          <div className="h-[400px]">
             <Slide2 />
           </div>
         </SwiperSlide>
@@ -42,8 +44,13 @@ export default function Hero() {
             <Slide3 />
           </div>
         </SwiperSlide>
-       
       </Swiper>
+      <div className="max-w-6xl mx-auto ">
+        <div className="sm:p-12 text-4xl  text-center underline text-orange-500 font-semibold">
+          <h1>Our Products</h1>
+        </div>
+        <ProductJson />
+      </div>
     </>
   );
 }
